@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylez.css" />
+    <link rel="stylesheet" href="/lightbox.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Image pasted from products -->
+    <div class="container">
+      <div class="gallery">
+        <a
+          href="/IMG/skullcandle.jpg"
+          data-lightbox="models"
+          data-title="Caption2"
+        >
+          <img src="/IMG/skullcandle.jpg" />
+        </a>
+        <a
+          href="/IMG/StarTrek.jpg"
+          data-lightbox="models"
+          data-title="Caption2"
+        >
+          <img src="/IMG/StarTrek.jpg" />
+        </a>
+        <a
+          href="/IMG/VarietyCandles.jpg"
+          data-lightbox="models"
+          data-title="Caption2"
+        >
+          <img src="/IMG/VarietyCandles.jpg" />
+        </a>
+        <a href="/IMG/Candle4.jpg" data-lightbox="models" data-title="Caption2">
+          <img src="/IMG/Candle4.jpg" />
+        </a>
+        <a href="/IMG/Candle5.jpg" data-lightbox="models" data-title="Caption2">
+          <img src="/IMG/Candle5.jpg" />
+        </a>
+        <a href="/IMG/Candle6.jpg" data-lightbox="models" data-title="Caption2">
+          <img src="/IMG/Candle6.jpg" />
+        </a>
+        <a href="/IMG/Candle7.jpg" data-lightbox="models" data-title="Caption2">
+          <img src="/IMG/Candle7.jpg" />
+        </a>
+        <a href="/IMG/Candle8.jpg" data-lightbox="models" data-title="Caption2">
+          <img src="/IMG/Candle8.jpg" />
+        </a>
+      </div>
+    </div>
+    <script src="/lightbox-plus-jquery.js"></script>
+    <script>
+      let mainNav = document.getElementById("js-menu");
+      let navBarToggle = document.getElementById("js-navbar-toggle");
+
+      navBarToggle.addEventListener("click", function () {
+        mainNav.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

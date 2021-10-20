@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="lightbox.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <title>About</title>
+  </head>
+  <body>
+    <!-- Nav Menu -->
+
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </span>
+      <a href="#" class="logo">TL</a>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="/index.html" class="nav-links">Home</a>
+        </li>
+        <li>
+          <a href="/products.html" class="nav-links">Products</a>
+        </li>
+        <li>
+          <a href="/about.html" class="nav-links">About Us</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Contact Us</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Blog</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- About----------------- -->
+    <div class="about">
+      <div>
+        <img class="about-img" src="/IMG/aboutme.jpg" alt="" />
+      </div>
+      <div class="about-story">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+          reprehenderit explicabo voluptates beatae praesentium? Sunt corporis
+          mollitia accusantium, vitae ullam minus consectetur enim, in
+          asperiores ipsa tempore excepturi aliquid commodi magni minima sit
+          iste voluptatem, veritatis dolor corrupti amet possimus illum
+          doloremque officia. At officia impedit similique, deserunt quia,
+          cumque commodi nesciunt eveniet aspernatur atque mollitia dolorum ipsa
+          consequatur praesentium. Suscipit reprehenderit minima neque
+          reiciendis aspernatur illo? Fugit nesciunt, ex aliquid laboriosam
+          commodi quia blanditiis fugiat porro voluptate assumenda sit rerum,
+          consectetur tenetur laudantium earum impedit! Repellendus, vel, quam
+          dolorum velit provident, vitae perspiciatis vero cupiditate est
+          deserunt dicta labore!
+        </p>
+      </div>
+    </div>
+
+    <!-- JS--------------- -->
+
+    <script src="/lightbox-plus-jquery.js"></script>
+    <script>
+      let mainNav = document.getElementById("js-menu");
+      let navBarToggle = document.getElementById("js-navbar-toggle");
+
+      navBarToggle.addEventListener("click", function () {
+        mainNav.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
