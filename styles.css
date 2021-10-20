@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 
 body{
@@ -106,6 +106,7 @@ body {
     font-size: 5.5rem;
     font-family: 'Lobster', cursive;
     text-align: center;
+    align-items: center;
     position: fixed;
     margin-left: 40%;
     margin-right: 50%;
@@ -120,18 +121,64 @@ body {
     border-radius: 50%;
 } */
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 140px) and (max-width: 374px) {
     .name{
         color: #fff;
         font-size: 3.5rem;
         font-family: 'Lobster', cursive;
-        text-align: center;
         position: fixed;
         margin-left: 30%;
         margin-right: 50%;
-        top: 10%;
+        top: 20%;
         }
 }
+
+@media (min-width: 375px) and (max-width: 454.9px) {
+    .name{
+        color: #fff;
+        font-size: 3.5rem;
+        font-family: 'Lobster', cursive;
+        position: fixed;
+        margin-left: 30%;
+        margin-right: 50%;
+        top: 20%;
+        }
+}
+@media (min-width: 455px) and (max-width: 595px) {
+    .name{
+        color: #fff;
+        font-size: 3.5rem;
+        font-family: 'Lobster', cursive;
+        position: fixed;
+        margin-left: 36.5%;
+        margin-right: 50%;
+        top: 20%;
+        }
+}
+@media (min-width: 596px) and (max-width: 632px) {
+    .name{
+        color: #fff;
+        font-size: 5em;
+        font-family: 'Lobster', cursive;
+        position: fixed;
+        margin-left: 32%;
+        margin-right: 50%;
+        top: 20%;
+        }
+}
+@media (min-width: 633px) and (max-width: 1023px) {
+    .name{
+        color: #fff;
+        font-size: 6.5em;
+        font-family: 'Lobster', cursive;
+        position: fixed;
+        margin-left: 32%;
+        margin-right: 50%;
+        top: 20%;
+        }
+}
+
+
 
 /* Flipping Images---------------------------------------- */
 .container{
@@ -172,12 +219,13 @@ body {
 }
 .about-story{
     color: #fff;
+    font-family: 'Lobster', cursive;
     position: absolute;
     top: 0;
-    margin-left: 60%;
-    padding-top: 1.8em;
+    margin-left: 43.5%;
+    padding-top: 1em;
     padding-right: 1.8em;
-    text-shadow: 2px 2px #1a1008;
+    text-shadow: .3px 2px #1a1008;
 }
 @media (min-width: 375px) and (max-width: 767px){
     .about{
@@ -197,10 +245,11 @@ body {
     }
     .about-story{
         font-size: 1.1em;
+        font-family: 'Lobster', cursive;
         color: #fff;
         text-align: center;
         text-indent: .75em;
-        font-weight: bold;
+        
         margin-top: 70%;
         margin-left: 8%;
     }
