@@ -43,7 +43,7 @@ body {
 .logo {
     display: inline-block;
     font-size: 22px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Griffy', cursive;
     margin-top: 10px;
     margin-left: 20px;
 }
@@ -88,7 +88,7 @@ body {
     }
     .logo {
         font-size: 22px;
-        font-family: 'Lobster', cursive;
+        font-family: 'Griffy', cursive;
         margin-top: 0;
     }
    .navbar-toggle {
@@ -103,30 +103,33 @@ body {
 
 .text{
     width: 100%;
-    margin-top:185px ;
+    margin-top: 14em;
     text-transform: uppercase;
     text-align: center;
-    color: #fff
+    color: #fff;
+    text-shadow: 1px 3px #ff4500;
 
 }
-.text h4{
+/* .text h4{
     font-size: 14px;
-    font-family: 'Lobster', cursive;
-}
+    font-family: 'Griffy', cursive;
+} */
 .text h1{
     font-size: 62px;
-    font-family: 'Lobster', cursive;
+    font-family: 'Griffy', cursive;
     font-weight: 700px;
     margin: 14px 0px;
 }
 .text h3{
-    font-size: 15px;
-    font-family: 'open sans', sans-serif;
+    font-size: 1.3em;
+    font-family: 'Griffy', cursive;
+    text-shadow: 1px 1.5px #ff4500;
 }
 .btn{
-    background-color: rgba(204, 192, 192, 0.856);
-    color: #e25822;
-    font-family: 'montserrat', sans-serif ;
+    background-color: rgba(204, 192, 192, 0.425);
+    color: #ff4500;
+    text-shadow: 1.0px .5px #1a1008;
+    font-family: 'Griffy', cursive;
     border: none;
     font-size: 15px;
     font-weight: bolder;
@@ -177,31 +180,51 @@ body {
 
 /* About-------------------------------------------- */
 .about{
-    position: relative;
-    background: url(/IMG/daniel-andrade-1sL5MMDynd4-unsplash.jpg);
-    background-size:cover;
-    height: 100vh;
+    /* position: relative; */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+    background: url(/IMG/joshua-bartell-6vvIBTvL90A-unsplash.jpg);
+    /* background-size:cover;
+    height: 100%; */
 }
 .about-img{
+    /* display: block; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+/* .about-img2{
     display: block;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
     position: relative;
-    margin-left: 12%;
-    margin-right: 50%;
-    padding-top: 5em;
+    margin-left: 50%;
+    margin-right: 12%;
+    top: -25em;
     width: 25%;
     height: 25%;
-    border-radius: 50%;
+    border-radius: 40%; 
+}*/
+
+.about-img img{
+    width: 100%;
+    border-radius: 25%;
 }
 .about-story{
-    color: #fff;
+    color: #f2f3f4;
     font-size: 1.2em;
-    font-family: 'Lobster', cursive;
+    font-family: 'Griffy', cursive;
+    font-weight: 900;
     position: absolute;
-    top: 0;
-    margin-left: 43.5%;
-    padding-top: 1em;
+    margin-left: 36.5%;
     padding-right: 1.8em;
-    text-shadow: .3px 2px #1a1008;
+    top: 80%;
+    /* text-shadow: .3px .5px #ff4500; */
 }
 @media (min-width: 355px) and (max-width: 767px){
     .about{
@@ -222,7 +245,7 @@ body {
     }
     .about-story{
         font-size: .97em;
-        font-family: 'Lobster', cursive;
+        font-family: 'Griffy', cursive;
         color: #fff;
         text-align: center;
         text-indent: .75em;
