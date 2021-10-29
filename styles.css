@@ -372,6 +372,7 @@ span{
     max-width: 450px;
     position: relative;
     z-index: 2;
+    transition: transform .5s;
 }
 
 .back-img{
@@ -383,6 +384,10 @@ span{
     max-width: 450px;
     top: -12px;
     right: 15px;
+}
+.contact-pic:hover{
+    transform: translate(-2em, -2em);
+    cursor: pointer;
 }
 .contact-info{
     width: 50%;
