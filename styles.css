@@ -502,18 +502,18 @@ span{
         max-width: 450px;
         position: relative;
         z-index: 2;
-        left: 3.3em;
+        left: 3.6em;
     }
     
     .back-img{
         margin-top: 3em;
         margin-right: 8em;
         position: absolute;
-        width: 44%;
-        height: 20.5%;
+        width: 45%;
+        height: 25%;
         max-width: 450px;
         top: -.1em;
-        right: -.05rem;
+        right: -.7rem;
     }
     .contact-info{
         width: 50%;
@@ -543,10 +543,10 @@ span{
         margin-right: .5em;
         border: 3px solid white;
         cursor: pointer;
-        border-radius: 15%;
-        -webkit-border-radius: 15%;
-        -moz-border-radius: 15%;
-        -ms-border-radius: 15%;
-        -o-border-radius: 15%;
+        border-radius: 10%;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        -ms-border-radius: 10%;
+        -o-border-radius: 10%;
 }
 }
