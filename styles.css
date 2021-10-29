@@ -486,3 +486,67 @@ span{
         -o-border-radius: 15%;
 }
 }
+@media (min-width: 300px) and (max-width: 373.9px){
+    .contact{
+        height: 100vh;
+        text-align: right;
+        position: relative;
+        background-color: #1a1008;
+        background-size: 100vh;
+    }
+    
+    .contact-pic{
+        margin-top: 3em;
+        margin-right: 10.5em;
+        width: 45%;
+        max-width: 450px;
+        position: relative;
+        z-index: 2;
+        left: 3.3em;
+    }
+    
+    .back-img{
+        margin-top: 3em;
+        margin-right: 8em;
+        position: absolute;
+        width: 44%;
+        height: 20.5%;
+        max-width: 450px;
+        top: -.1em;
+        right: -.05rem;
+    }
+    .contact-info{
+        width: 50%;
+        color: #fff;
+        text-shadow: .5px .5px #ff4500;
+        text-align: center;
+        align-items: center;
+        letter-spacing: .2em;
+        font-family: 'Griffy', cursive;
+        position: relative;
+        top: 2.5em;
+        left: 5.5em;
+    }
+    .contact-btn{
+        background-color: rgba(204, 192, 192, 0.550);
+        color: #ff4500;
+        text-shadow: 1.4px 1px #1a1008;
+        font-family: 'Griffy', cursive;
+        border: none;
+        font-size: .8em;
+        font-weight: 500px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        line-height: 2em;
+        width: 7em;
+        margin-top: 8em;
+        margin-right: .5em;
+        border: 3px solid white;
+        cursor: pointer;
+        border-radius: 15%;
+        -webkit-border-radius: 15%;
+        -moz-border-radius: 15%;
+        -ms-border-radius: 15%;
+        -o-border-radius: 15%;
+}
+}
