@@ -166,6 +166,13 @@ body {
     .text{
         margin-top:100px ;
         }
+    .text h1{
+        font-size: 3.5em;
+        font-family: 'Griffy', cursive;
+        font-weight: 300px;
+        letter-spacing: 1.5px;
+        margin: 14px 0px;
+        }
 }
 
 
@@ -204,6 +211,8 @@ body {
 }
 .about-text{
     width: 550px;
+    padding-left: 1em;
+    text-align: center;
 }
 .main{
     width: 1130px;
@@ -291,5 +300,71 @@ span{
         font-size: 1em;
         font-family: 'Griffy', cursive;
     }
-   
+}
+
+/* -------------Contact Us-------------------------- */
+
+.contact{
+    height: 100vh;
+    text-align: right;
+    position: relative;
+    background-color: #1a1008;
+    background-size: 100vh;
+}
+
+.contact-pic{
+    margin-top: 3em;
+    margin-right: 58em;
+    width: 80%;
+    max-width: 450px;
+    position: relative;
+    z-index: 2;
+}
+
+.back-img{
+    margin-top: 3em;
+    margin-right: 58em;
+    position: absolute;
+    width: 80%;
+    height: 63%;
+    max-width: 450px;
+    top: -12px;
+    right: 15px;
+}
+.contact-info{
+    width: 50%;
+    color: #fff;
+    text-shadow: .5px .5px #ff4500;
+    text-align: left;
+    letter-spacing: .2em;
+    font-family: 'Griffy', cursive;
+    position: relative;
+    top: -26em;
+    left: 40em;
+}
+.contact-btn{
+    background-color: rgba(204, 192, 192, 0.550);
+    color: #ff4500;
+    text-shadow: 1.4px 1px #1a1008;
+    font-family: 'Griffy', cursive;
+    border: none;
+    font-size: .8em;
+    font-weight: 500px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2em;
+    width: 7em;
+    margin-top: 8em;
+    margin-right: 35em;
+    border: 3px solid white;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 8%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.contact-btn:hover{
+    background-color: crimson;
+    color: white;
 }
