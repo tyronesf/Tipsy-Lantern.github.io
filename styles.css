@@ -374,15 +374,19 @@ span{
     max-width: 450px;
     position: relative;
     z-index: 2;
-    border-radius: 5%;
-    transition: transform .5s;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+    border-radius: 30%;
+    transition: transform 1s;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
 }
 
-.back-img{
+/* .back-img{
     margin-top: 3em;
     margin-right: 57.8em;
     position: absolute;
@@ -396,10 +400,14 @@ span{
     -moz-border-radius: 5%;
     -ms-border-radius: 5%;
     -o-border-radius: 5%;
-}
+} */
 .contact-pic:hover{
-    transform: translate(-2em, -2em);
+    transform: scale(1.15) rotateZ(360deg);
     cursor: pointer;
+    -webkit-transform: scale(1.15) rotateZ(360deg);
+    -moz-transform: scale(1.15) rotateZ(360deg);
+    -ms-transform: scale(1.15) rotateZ(360deg);
+    -o-transform: scale(1.15) rotateZ(360deg);
 }
 .contact-info{
     width: 50%;
@@ -459,7 +467,7 @@ span{
         left: 3.6em;
     }
     
-    .back-img{
+    /* .back-img{
         margin-top: 3em;
         margin-right: 8em;
         position: absolute;
@@ -468,7 +476,7 @@ span{
         max-width: 450px;
         top: -.1em;
         right: -.7rem;
-    }
+    } */
     .contact-info{
         width: 50%;
         color: #fff;
@@ -493,8 +501,8 @@ span{
         letter-spacing: 2px;
         line-height: 2em;
         width: 7em;
-        margin-top: 8em;
-        margin-right: .5em;
+        margin-top: 4.5em;
+        margin-right: -.5em;
         border: 3px solid white;
         cursor: pointer;
         border-radius: 10%;
@@ -525,7 +533,7 @@ span{
         left: 3.3em;
     }
     
-    .back-img{
+    /* .back-img{
         margin-top: 2.8em;
         margin-right: 8em;
         position: absolute;
@@ -534,7 +542,7 @@ span{
         max-width: 450px;
         top: -.1em;
         right: -.05rem;
-    }
+    } */
     .contact-info{
         width: 50%;
         color: #fff;
@@ -560,7 +568,7 @@ span{
         line-height: 2em;
         width: 7em;
         margin-top: 8em;
-        margin-right: .5em;
+        margin-right: -.8em;
         border: 3px solid white;
         cursor: pointer;
         border-radius: 15%;
