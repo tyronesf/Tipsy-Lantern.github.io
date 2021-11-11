@@ -456,27 +456,15 @@ span{
         background-color: #1a1008;
         background-size: 100vh;
     }
-    
     .contact-pic{
         margin-top: 3em;
-        margin-right: 10.5em;
+        margin-right: 10em;
         width: 45%;
         max-width: 450px;
         position: relative;
         z-index: 2;
         left: 3.6em;
     }
-    
-    /* .back-img{
-        margin-top: 3em;
-        margin-right: 8em;
-        position: absolute;
-        width: 45%;
-        height: 25%;
-        max-width: 450px;
-        top: -.1em;
-        right: -.7rem;
-    } */
     .contact-info{
         width: 50%;
         color: #fff;
