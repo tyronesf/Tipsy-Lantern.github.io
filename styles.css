@@ -724,3 +724,54 @@ span{
         -o-border-radius: 15%;
 }
 }
+
+/* Blog/Event----------------------------------- */
+/* img{
+    width: 50%;
+    height: 50%;
+} */
+.blog{
+    background-color: #191919;
+    height: 100vh;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.img-area{
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin: 10% auto 0;
+}
+.img-area img{
+    position: absolute;
+    left: 0;
+    height: 300px;
+    width: 400px;
+    border-radius: 5%;
+    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.img-area img.img-back:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+.blog-spot{
+    color: white;
+    margin-left: 9em;
+    text-decoration: none;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="lightbox.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Griffy&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tipsy-Lantern</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+
+    <nav class="navbar">
+      <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </span>
+      <a href="/index.html" class="logo">TL</a>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="/index.html" class="nav-links">Home</a>
+        </li>
+        <li>
+          <a href="/products.html" class="nav-links">Products</a>
+        </li>
+        <li>
+          <a href="/about.html" class="nav-links">About Us</a>
+        </li>
+        <li>
+          <a href="/contact.html" class="nav-links">Contact Us</a>
+        </li>
+        <li>
+          <a href="#" class="nav-links">Blog/Events</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="blog">
+      <div class="wrapper">
+          <figure>
+        <div class="img-area">
+            <img src="/IMG/KipLit.png" alt="" class="img-front" />
+            <img src="/IMG/KipDrink.png" alt="" class="img-back" />
+        </div>
+        <a class="blog-spot" href="#">www.blogspot.com</a>
+      </div></figure>
+    </section>
+
+    <!-- JS------------- -->
+
+    <script src="/lightbox-plus-jquery.js"></script>
+    <script>
+      let mainNav = document.getElementById("js-menu");
+      let navBarToggle = document.getElementById("js-navbar-toggle");
+
+      navBarToggle.addEventListener("click", function () {
+        mainNav.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
