@@ -612,7 +612,7 @@ span{
         position: relative;
         align-items: center;
         background-color: #1a1008;
-        background-size: 100vh;
+        background-repeat: repeat;
     }
     .contact-pic{
         margin-top: 8em;
@@ -632,7 +632,8 @@ span{
         letter-spacing: .2em;
         font-family: 'Griffy', cursive;
         position: relative;
-        top: 2.5em;
+        padding-top: 1px;
+        top: .1em;
         left: 13.5em;
     }
     .contact-btn{
@@ -647,7 +648,7 @@ span{
         letter-spacing: 2px;
         line-height: 2em;
         width: 7em;
-        margin-top: 4.5em;
+        margin-top: 3em;
         margin-right: -.8em;
         border: 3px solid white;
         cursor: pointer;
@@ -678,28 +679,18 @@ span{
         z-index: 2;
         left: 3.3em;
     }
-    
-    .back-img{
-        margin-top: 3em;
-        margin-right: 18em;
-        position: absolute;
-        width: 44%;
-        height: 32.5%;
-        max-width: 450px;
-        top: -.1em;
-        right: -.05rem;
-    }
     .contact-info{
         width: 50%;
         color: #fff;
         text-shadow: .5px .5px #ff4500;
-        text-align: right;
+        text-align: center;
         align-items: center;
         letter-spacing: .2em;
         font-family: 'Griffy', cursive;
         position: relative;
-        top: 5em;
-        left: 16em;
+        padding-top: 10px;
+        top: .2em;
+        left: 17.5em;
     }
     .contact-btn{
         background-color: rgba(204, 192, 192, 0.550);
@@ -713,8 +704,8 @@ span{
         letter-spacing: 2px;
         line-height: 2em;
         width: 7em;
-        margin-top: 8em;
-        margin-right: 15em;
+        margin-top: 2em;
+        margin-right: -3.8em;
         border: 3px solid white;
         cursor: pointer;
         border-radius: 15%;
