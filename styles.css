@@ -116,17 +116,13 @@ body {
     margin-top: 9.5em;
     text-align: center;
     color: #fff;
-    /* text-shadow: .5px 1.5px #cc5500; */
 
 }
-/* .text h4{
-    font-size: 14px;
-    font-family: 'Griffy', cursive;
-} */
+
 .text h1{
     font-size: 62px;
     font-family: 'Griffy', cursive;
-    font-weight: 300px;
+    font-weight: 100;
     letter-spacing: .1em;
     margin: 14px 0px;
     color: transparent;
@@ -146,6 +142,7 @@ body {
     font-size: 1.3em;
     font-family: 'Griffy', cursive;
     letter-spacing: .2em;
+    font-weight: 100;
     color: transparent;
     -webkit-text-stroke: 1px #cc5500;
     background: url(/IMG/back.png);
