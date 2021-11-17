@@ -454,7 +454,7 @@ span{
 .blog-spot{
     color: #cc5;
     font-size: 1.2em;
-    margin-left: 3.5em;
+    margin-left: 2.2em;
     text-decoration: none;
 }
 .blog-spot:hover{
@@ -491,6 +491,6 @@ span{
     }
     .blog-spot{
     font-size: .9em;
-    margin-left: 4em;
+    margin-left: 2.1em;
 }
 }
