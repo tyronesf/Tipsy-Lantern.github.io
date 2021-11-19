@@ -1,0 +1,84 @@
+<div class="home">
+      <h1 class="name">Tipsy Lantern</h1>
+    </div>
+
+
+
+css______________________________________________________
+
+.name{
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    margin-left: 40%;
+    margin-right: 50%;
+    top: 40%;
+    
+}
+/* .home-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+} */
+
+@media (min-width: 140px) and (max-width: 374px) {
+    .name{
+        color: #fff;
+        font-size: 3.5rem;
+        font-family: 'Lobster', cursive;
+        position: fixed;
+        margin-left: 30%;
+        margin-right: 50%;
+        top: 20%;
+        }
+}
+
+@media (min-width: 375px) and (max-width: 454.9px) {
+    .name{
+        color: #fff;
+        font-size: 3.5rem;
+        font-family: 'Lobster', cursive;
+        position: fixed;
+        margin-left: 30%;
+        margin-right: 50%;
+        top: 20%;
+        }
+}
+@media (min-width: 455px) and (max-width: 595px) {
+    .name{
+        color: #fff;
+        font-size: 3.5rem;
+        font-family: 'Lobster', cursive;
+        position: fixed;
+        margin-left: 36.5%;
+        margin-right: 50%;
+        top: 20%;
+        }
+}
+@media (min-width: 596px) and (max-width: 632px) {
+    .name{
+        color: #fff;
+        font-size: 5em;
+        font-family: 'Lobster', cursive;
+        position: fixed;
+        margin-left: 32%;
+        margin-right: 50%;
+        top: 20%;
+        }
+}
+@media (min-width: 633px) and (max-width: 1023px) {
+    .name{
+        color: #fff;
+        font-size: 6.5em;
+        font-family: 'Lobster', cursive;
+        position: fixed;
+        margin-left: 32%;
+        margin-right: 50%;
+        top: 20%;
+        }
+}
